@@ -4,7 +4,7 @@ function App() {
   //@ts-ignore
   const { BMap, BMAP_STATUS_SUCCESS, BMAP_ANCHOR_TOP_LEFT,BMAP_ANCHOR_BOTTOM_LEFT } = window;
   const init_map = (BMap: any) => {
-      let outputPath = 'http://localhost/maps/';
+      let outputPath = '/assets/maps/';
       let minLevel = 8;
       let maxLevel = 17;
       let format = '.png';
